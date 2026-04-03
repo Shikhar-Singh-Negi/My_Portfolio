@@ -1,4 +1,4 @@
-import '../src/assets/css/styles.css';
+import './assets/css/styles.css';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import About from './components/About';

@@ -18,12 +18,12 @@ function Skills() {
                         <div className="about-containers">
                             {
                                 skills.map((item) => (
-                                    <div className="details-container">
+                                    <div className="details-container" key={item.title}>
                                         <h2 className="experience-sub-title">{item.title}</h2>
                                         <div className="article-container">
                                             {
                                                 item.skillname.map((skillnames) => (
-                                                    <button type="button" className="btn btn-lg skill-btn" disabled>
+                                                    <button type="button" className="btn btn-lg skill-btn" disabled key={skillnames.name}>
                                                         <img src={iconpath + skillnames.image + ".png"} className="skill-icon mx-2" alt='Shikhar Singh Negi Skills - icons' />
                                                         {skillnames.name}
                                                     </button>

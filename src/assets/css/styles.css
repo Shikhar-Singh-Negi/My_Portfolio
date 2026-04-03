@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "koff";
-  src: url("/src/assets/fonts/Kollektif.ttf");
+  src: url("../fonts/Kollektif.ttf");
 }
 
 @font-face {
   font-family: "koff-bold";
-  src: url("/src/assets/fonts/Kollektif-Bold.ttf");
+  src: url("../fonts/Kollektif-Bold.ttf");
 }
 
 :root {

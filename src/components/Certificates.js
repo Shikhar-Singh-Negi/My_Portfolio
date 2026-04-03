@@ -86,7 +86,6 @@ const Certificates = () => {
                             className="btn btn-lg px-5 py-3 shadow-lg"
                             style={{ 
                                 background: 'linear-gradient(135deg, #7264d0, #50478a)', 
-                                color: '#white', 
                                 borderRadius: '30px',
                                 border: 'none',
                                 fontWeight: '600',

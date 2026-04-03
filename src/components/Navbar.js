@@ -16,7 +16,7 @@ function Navbar() {
             <div className='fixed-top'>
                 <nav className="navbar navbar-expand-lg row" style={{ background: '#1D1D23', padding: '17px' }} data-bs-theme="dark">
                     <div className="container-fluid">
-                        <a className="navbar-brand p-0" href="#">
+                        <a className="navbar-brand p-0" href="/#top">
                             <img
                                 src={imagepath + logo}
                                 alt="Shikhar Singh Negi - logo"
@@ -58,7 +58,7 @@ function Navbar() {
                                 <NavHashLink className={`${location.pathname}${location.hash}` === `/#contact` ? "active1 nav-link mx-2" : "nav-link mx-2"} to="#contact">
                                     Contact
                                 </NavHashLink>
-                                <button class="btn hire-btn mx-2" style={{ borderRadius: '5%' }} type="submit"> <a className="hire-a" href={`mailto:` + email}>Hire Me</a> </button>
+                                <a className="btn hire-btn mx-2 hire-a" style={{ borderRadius: '5%' }} href={`mailto:` + email}>Hire Me</a> 
                             </div>
                         </div>
                     </div>
@@ -68,16 +68,16 @@ function Navbar() {
             <div id="contact-left">
                 {/* <div id="contact-line" /> */}
                 <div id="contact-left-links">
-                    <a target='_blank' href={socialLinks.github}>
+                    <a target='_blank' rel="noreferrer" href={socialLinks.github}>
                         <i className="fab fa-github" />
                     </a>
-                    <a target='_blank' href={socialLinks.linkedin}>
+                    <a target='_blank' rel="noreferrer" href={socialLinks.linkedin}>
                         <i className="fab fa-linkedin-in" />
                     </a>
-                    <a target='_blank' href={`mailto:` + email}>
+                    <a target='_blank' rel="noreferrer" href={`mailto:` + email}>
                         <i className="fas fa-envelope" />
                     </a>
-                    <a target='_blank' href={socialLinks.instagram}>
+                    <a target='_blank' rel="noreferrer" href={socialLinks.instagram}>
                         <i className="fab fa-instagram" />
                     </a>
                 </div>
