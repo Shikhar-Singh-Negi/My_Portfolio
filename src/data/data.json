@@ -281,14 +281,14 @@
         "projectName": "StayLio",
         "projectType": "Vacation Rental Platform",
         "projectImage": [
-          "Project0/main.png",
-          "Project0/login.png",
-          "Project0/ai.png",
-          "Project0/admin1.png",
-          "Project0/admin2.png",
-          "Project0/admin3.png",
-          "Project0/admin4.png",
-          "Project0/admin5.png"
+          "project0/main.png",
+          "project0/login.png",
+          "project0/ai.png",
+          "project0/admin1.png",
+          "project0/admin2.png",
+          "project0/admin3.png",
+          "project0/admin4.png",
+          "project0/admin5.png"
         ],
         "techStack": [
           {
