@@ -17,7 +17,9 @@ const Contact = () => {
                     <p className="text-lg">
                         Email me at{" "}
                         <a
-                            href={"mailto:"+email}
+                            href={"https://mail.google.com/mail/?view=cm&fs=1&to=" + email}
+                            target="_blank"
+                            rel="noreferrer"
                             className="underline-link"
                         >
                             {email}

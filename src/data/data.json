@@ -175,11 +175,56 @@
           {
             "name": "MongoDB",
             "image": "mdb"
+          },
+          {
+            "name": "Vercel",
+            "image": "vercel"
           }
         ],
         "description": "Staylio is a full-stack vacation rental platform that allows users to browse, list, and book properties seamlessly. It features secure authentication, AI chatbot support, real-time map integration, and Razorpay payment for a smooth booking experience.",
         "githubLink": "https://github.com/Shikhar-Singh-Negi/StayLio.git",
         "liveLink": "https://stay-lio.vercel.app/"
+      },
+      {
+        "projectName": "stockify",
+        "projectType": "Inventory Management System",
+        "projectImage": [
+          "project1/1.png",
+          "project1/2.png",
+          "project1/3.png",
+          "project1/4.png",
+          "project1/5.png",
+          "project1/6.png",
+          "project1/7.png",
+          "project1/8.png",
+          "project1/9.png",
+          "project1/10.png"
+        ],
+        "techStack": [
+          {
+            "name": "JavaScript",
+            "image": "javascript"
+          },
+          {
+            "name": "React",
+            "image": "react"
+          },
+          {
+            "name": "Node Js",
+            "image": "node"
+          },
+          {
+            "name": "Express Js",
+            "image": "express"
+          },
+          {
+            "name": "MongoDB",
+            "image": "mdb"
+          }
+        ],
+        "description": "Stockify is a comprehensive inventory management system designed to streamline stock tracking, order processing, and business analytics. It provides real-time inventory insights, automated low-stock alerts, and secure user authentication to help businesses manage their stock efficiently.",
+        "githubLink": "https://github.com/Shikhar-Singh-Negi/stockify.git",
+        "liveLink": ""
       }
     ],
     "certificates": [

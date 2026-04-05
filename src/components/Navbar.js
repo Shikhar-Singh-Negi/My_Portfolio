@@ -58,7 +58,7 @@ function Navbar() {
                                 <NavHashLink className={`${location.pathname}${location.hash}` === `/#contact` ? "active1 nav-link mx-2" : "nav-link mx-2"} to="#contact">
                                     Contact
                                 </NavHashLink>
-                                <a className="btn hire-btn mx-2 hire-a" style={{ borderRadius: '5%' }} href={`mailto:` + email}>Hire Me</a> 
+                                <a className="btn hire-btn mx-2 hire-a" style={{ borderRadius: '5%' }} href={`https://mail.google.com/mail/?view=cm&fs=1&to=` + email} target="_blank" rel="noreferrer">Hire Me</a> 
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ function Navbar() {
                     <a target='_blank' rel="noreferrer" href={socialLinks.linkedin}>
                         <i className="fab fa-linkedin-in" />
                     </a>
-                    <a target='_blank' rel="noreferrer" href={`mailto:` + email}>
+                    <a target='_blank' rel="noreferrer" href={`https://mail.google.com/mail/?view=cm&fs=1&to=` + email}>
                         <i className="fas fa-envelope" />
                     </a>
                     <a target='_blank' rel="noreferrer" href={socialLinks.instagram}>
